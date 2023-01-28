@@ -1,7 +1,7 @@
 <br />
 <div align="center">
  
-<h3 align="center">Neolapp Project</h3>
+<h3 align="center">Neoapp Project</h3>
 
 
 
