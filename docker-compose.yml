@@ -1,0 +1,39 @@
+version: "3"
+services:
+  booking-service:
+    container_name: booking-service
+    build: ./booking-service
+    ports:
+      - "8081:8081"
+    command: npm start
+    volumes:
+      - .:/usr/app/bookins-service
+    links:
+      - mongo
+  payment-service:
+    container_name: payment-service
+    build: ./payment-service
+    ports:
+      - "8082:8082"
+    command: npm start
+    volumes:
+      - .:/usr/app/payment-service
+    links:
+      - mongo
+  search-service:
+    container_name: search-service
+    build: ./search-service
+    ports:
+      - "8080:8080"
+    command: npm start
+    volumes:
+      - .:/usr/app/search-service
+    links:
+      - mongo
+  mongo:
+    container_name: mongodb
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"

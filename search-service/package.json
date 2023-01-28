@@ -1,0 +1,36 @@
+{
+  "name": "neolapp",
+  "version": "1.0.0",
+  "description": "Neol interview task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guvenozgur/neolapp.git"
+  },
+  "author": "HGO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guvenozgur/neolapp/issues"
+  },
+  "homepage": "https://github.com/guvenozgur/neolapp#readme",
+  "dependencies": {
+    "@socket.io/sticky": "^1.0.0",
+    "axios": "^1.2.5",
+    "bluebird": "^3.7.2",
+    "connect-redis": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
+    "mongoose": "^5.11.18",
+    "mongoose-unique-validator": "^2.0.3",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "sinon": "^9.2.4"
+  }
+}

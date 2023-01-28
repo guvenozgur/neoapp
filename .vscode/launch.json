@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Search Service",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\search-service\\src\\server.js"
+        ,
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Payment Service",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\payment-service\\src\\server.js"
+        ,
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Booking Service",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\booking-service\\src\\server.js"
+        ,
+        }
+    ]
+}
