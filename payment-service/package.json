@@ -1,7 +1,7 @@
 {
-  "name": "neolapp",
+  "name": "neoapp",
   "version": "1.0.0",
-  "description": "Neol interview task",
+  "description": "Neo task",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guvenozgur/neolapp.git"
+    "url": "git+https://github.com/guvenozgur/neoapp.git"
   },
   "author": "HGO",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guvenozgur/neolapp/issues"
+    "url": "https://github.com/guvenozgur/neoapp/issues"
   },
-  "homepage": "https://github.com/guvenozgur/neolapp#readme",
+  "homepage": "https://github.com/guvenozgur/neoapp#readme",
   "dependencies": {
     "axios": "^1.2.5",
     "express": "^4.16.3",
